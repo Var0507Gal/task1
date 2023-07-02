@@ -24,6 +24,6 @@ int a = xCoordinate2 - xCoordinate1;
 int b = yCoordinate2 - yCoordinate1;
 int c = zCoordinate2 - zCoordinate1;
 
-double l = Math.Sqrt(a^2 + b^2 + c^2);
+double l = Math.Sqrt(a * a + b * b + c * c);
 
 Console.WriteLine($" Растояние между точкой 1 и 2: {l}");
