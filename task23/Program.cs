@@ -10,9 +10,9 @@
 // 5 | 125
 Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.Write($"Таблица кубов: {n}");
+Console.Write($"Таблица кубов от 1 до числа {n} \n");
 for (int i = 1; i <= n; i++)
 {
 int k = i*i*i;
-Console.Write($"{k}");
+Console.Write($"{i}*{i}*{i} = {k} \n");
 }
