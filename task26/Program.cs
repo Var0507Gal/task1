@@ -8,10 +8,10 @@ Console.WriteLine($"Количество цифр в числе {number}: {resul
 int LengthNumber(int num)
 {
     int count = 0;
-    while (num > 0)
+    while (num != 0)
     {
         num /= 10;
         count++;
     }
-    return count;
+    return count == 0 ? 1 : count;
 }
