@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 20: Напишите программу, 
+// которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
